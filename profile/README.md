@@ -40,7 +40,7 @@ So yes, sView is an image viewer, and a good everyday one. It exists because the
 
 ## Getting started
 
-Each tool builds from source on macOS 26 with Xcode 26; see its README. To work on several at once, clone them side by side so that `../scommon` resolves; otherwise SwiftPM fetches scommon from GitHub. Signed releases come later.
+sView and sNotate have a download on their releases pages ([sView](https://github.com/uSuite/sview/releases/latest), [sNotate](https://github.com/uSuite/snotate/releases/latest)), a universal app for macOS 26 or newer. The downloads are signed ad hoc, not notarised, so macOS blocks the first open; each README's Install section shows how to allow it once. Every tool also builds from source with Xcode 26. To work on several at once, clone them side by side so that `../scommon` resolves; otherwise SwiftPM fetches scommon from GitHub.
 
 ## Why uSuite
 
