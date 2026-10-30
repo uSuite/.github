@@ -22,7 +22,7 @@ sSuite keeps the right idea and gives the files back to you. It is a chain of sm
 
 | Tool | Job | State |
 | --- | --- | --- |
-| [sCapture](https://github.com/uSuite/scapture) | captures a window at a fixed size and scale into the active case folder | shell proof of concept, Swift app next |
+| [sCapture](https://github.com/uSuite/scapture) | captures a window at a fixed size and scale into the active case folder, from a menu bar key | 0.1 |
 | [sView](https://github.com/uSuite/sview) | views images and walks case folders from the keyboard, with the case memo beside the captures | 0.2 |
 | [sNotate](https://github.com/uSuite/snotate) | annotates a case folder as one story and exports one image per step, a contact sheet and a Typst fragment | 0.2 |
 | sWalk | renders a notated case as an animated clip with subtitles, no video editor involved | planned |
