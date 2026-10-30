@@ -4,6 +4,8 @@
 
 uSuite is Ur Suite, your suite: small, open-source utilities for the Mac, each one doing one job well. Its first family is sSuite, a set of tools that turn work done on screen into step-by-step evidence and guides. The s stands for super-fast, and for Swift.
 
+Tour the tools, share them and support the work at [usuite.github.io](https://usuite.github.io/).
+
 ## Wait, another image viewer?
 
 Fair question. macOS has Preview and Quick Look, and there are good free viewers and screenshot tools. sView alone would be hard to defend. But sView is not the point; the point is a job none of those tools do end to end.
