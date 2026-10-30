@@ -1,6 +1,6 @@
 # uSuite
 
-<img src="family-row.png" alt="The sSuite icons: sView, sNotate, sCapture, sWalk and scommon" width="640">
+<img src="family-row.png" alt="The sSuite icons: sView, sNotate, sCapture, sWalk, sPaste and scommon" width="768">
 
 uSuite is Ur Suite, your suite: small, open-source utilities for the Mac, each one doing one job well. Its first family is sSuite, a set of tools that turn work done on screen into step-by-step evidence and guides. The s stands for super-fast, and for Swift.
 
@@ -26,6 +26,8 @@ sSuite keeps the right idea and gives the files back to you. It is a chain of sm
 | sWalk | renders a notated case as an animated clip with subtitles, no video editor involved | planned |
 | [scommon](https://github.com/uSuite/scommon) | the Swift package they share: folders, natural sort, config and keymap | 0.3 |
 
+Beside the chain, the same rules make everyday utilities. The first is [sPaste](https://github.com/uSuite/spaste), a clipboard history in a panel on Shift+Cmd+C that you walk with vim keys (`/` from the newest copy, `?` from the oldest) and filter by type and time; its history is a plain folder you can read. Version 0.1.
+
 So yes, sView is an image viewer, and a good everyday one. It exists because the chain needs a reader that steps from case to case without a mouse, and it is built to the same rules as the rest.
 
 ## The rules every tool follows
@@ -40,7 +42,7 @@ So yes, sView is an image viewer, and a good everyday one. It exists because the
 
 ## Getting started
 
-sView and sNotate have a download on their releases pages ([sView](https://github.com/uSuite/sview/releases/latest), [sNotate](https://github.com/uSuite/snotate/releases/latest)), a universal app for macOS 26 or newer. The downloads are signed ad hoc, not notarised, so macOS blocks the first open; each README's Install section shows how to allow it once. Every tool also builds from source with Xcode 26. To work on several at once, clone them side by side so that `../scommon` resolves; otherwise SwiftPM fetches scommon from GitHub.
+sView, sNotate and sPaste have a download on their releases pages ([sView](https://github.com/uSuite/sview/releases/latest), [sNotate](https://github.com/uSuite/snotate/releases/latest), [sPaste](https://github.com/uSuite/spaste/releases/latest)), a universal app for macOS 26 or newer. The downloads are signed ad hoc, not notarised, so macOS blocks the first open; each README's Install section shows how to allow it once. Every tool also builds from source with Xcode 26. To work on several at once, clone them side by side so that `../scommon` resolves; otherwise SwiftPM fetches scommon from GitHub.
 
 ## Why uSuite
 
